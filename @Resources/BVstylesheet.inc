@@ -25,10 +25,12 @@ relbargap=1R
 relbartext=2r
 
 ; --- Graph colors ---
+graphoutlinecolor=8,8,8,24
+baroutlinecolor=8,8,8,24
 bargraphempty=8,8,8,24
-bargraphfill=255,255,255,200
-lingraphcolor=255,255,255,200
-lingraphcolor2=55,55,55,55
+bargraphfill=250,250,250,200
+lingraphcolor=250,250,250,200
+lingraphcolor2=255,0,0,255
 GRIDCOLOR=8,8,8,24
 
 ; --- Normal graph dimensions ---
@@ -68,12 +70,12 @@ SMhorizGRIDW=250
 
 ; Base text style — apply to every STRING meter
 [DefaultText]
-FontColor=255,255,255,200
+FontColor=8,8,8,128
 FontSize=8
 FontFace="Noto Sans"
 StringEffect=Border
 StringStyle=Bold
-FontEffectColor=0,0,0,200
+FontEffectColor=200,200,200,24
 AntiAlias=1
 
 ; Grid line style — apply to every background grid IMAGE meter
